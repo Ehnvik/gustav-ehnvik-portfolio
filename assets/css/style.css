@@ -63,7 +63,19 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
     margin-bottom: 25px;
+    animation: rotate 1.2s ease-in-out;
 }
+
+@keyframes rotate {
+    0% {
+        transform: rotatex(0deg);
+    }
+
+    100% {
+        transform: rotatex(360deg);
+    }
+}
+
 
 .article-lite-om-mig {
     margin: 50px 0px 0px 0px;
