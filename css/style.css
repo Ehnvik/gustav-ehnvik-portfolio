@@ -75,6 +75,8 @@ div.col-1 {
     border-right: 3px solid #555555;
 }
 
+/* h1 rotate animation */
+
 h1 > div:nth-child(1) {
     animation: myAnimation 0.2s forwards;
 }
@@ -132,57 +134,6 @@ h1 > div:nth-child(12) {
         transform: rotatey(360deg);
     }
 }
-
-
-
-
-/* .g {
-    animation: g 1.5s infinite;
-}
-
-.u {
-    animation: u 1.5s infinite;
-    animation-delay: 0.006s;
-}
-.s {
-    animation: s 1.5s infinite;
-    animation-delay: 0.012s;
-} */
-
-
-/* @keyframes g {
-    0% {
-        transform: rotatey(0deg);
-    }
-
-    100% {
-        transform: rotatey(360deg);
-    }
-}
-
-
-
-
-@keyframes u {
-    0% {
-        transform: rotatey(0deg);
-    }
-
-    100% {
-        transform: rotatey(360deg);
-    }
-}
-
-@keyframes s {
-    0% {
-        transform: rotatey(0deg);
-    }
-
-    100% {
-        transform: rotatey(360deg);
-    }
-} */
-
 
 
 .article-lite-om-mig {
